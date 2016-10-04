@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+<h:head>
+	<h:outputStylesheet library="css" name="styles.css"/>
+	<title>#{msgs.tituloIndex}</title>
+	<h:outputScript library="javascript" name="script.js"/>
+	
+</h:head>
+<h:body styleClass="body">
+<h:form>
+		
+		<fieldset>
+		<h:panelGrid columns="2" styleClass="perg">
+			
+			<h:selectBooleanCheckbox value="#{bean.perg1}"/>
+				<h:outputText value="#{msgs.primeira}" styleClass="emphasis"/>
+				
+			<h:selectBooleanCheckbox value="#{bean.perg2}"/>
+				<h:outputText value="#{msgs.segunda}" styleClass="emphasis"/>
+				
+			<h:selectBooleanCheckbox value="#{bean.perg3}"/>				
+				<h:outputText value="#{msgs.terceira}" styleClass="emphasis"/>
+				
+			<h:selectBooleanCheckbox value="#{bean.perg4}"/>
+				<h:outputText value="#{msgs.quarta}" styleClass="emphasis"/>
+				
+			<h:selectBooleanCheckbox value="#{bean.perg5}"/>				
+				<h:outputText value="#{msgs.quinta}" styleClass="emphasis"/>
+				
+			
+		</h:panelGrid>
+		<center>
+		
+	<h:commandButton value="#{msgs.botaoIndex}" action="#{bean.verificar}"/>
+	</center>
+	</fieldset>
+<h:graphicImage styleClass="img" library="imagem" name="5Xk8wGKPnB-2.png"/>
+</h:form>
+</h:body>
+</html>

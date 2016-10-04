@@ -1,0 +1,29 @@
+.emphasis{
+	font-family: arial;
+
+}
+fieldset{
+	border-color: #808080;
+	margin: 20px;
+	position: center;
+	width: 273px;
+	background-color: rgba(255,255,255,.8);
+	
+}
+h2{
+	font-style: italic;
+	color: #800080;
+}
+h3{
+	font-style: italic;
+	color: #400080;
+}
+img{
+	margin: 20px;
+	margin-top: -20px;
+}
+body{ 
+	background-color:#000000; 
+
+}
+

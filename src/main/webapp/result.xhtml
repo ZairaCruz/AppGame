@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+<h:head>
+	<h:outputStylesheet library="css" name="styles.css"/>
+	<title>#{msgs.tituloResultado}</title>
+
+</h:head>
+<h:body>
+	<h:form>
+	<fieldset>
+	<center>
+	<br></br>
+	<h:graphicImage library="imagem" name="susp.png"/>
+			    </center>
+	<h3>#{msgs.label}</h3>
+
+	<h2>#{bean.resultado}</h2>
+	
+	<h:commandButton value="#{msgs.botaoVoltar}" action="index"/>
+	</fieldset>
+	<h:graphicImage styleClass="img" library="imagem" name="5Xk8wGKPnB-2.png"/>
+	</h:form>
+</h:body>
+</html>
